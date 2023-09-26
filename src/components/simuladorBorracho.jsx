@@ -57,7 +57,7 @@ const SimuladorEbrio = () => {
           default:
             break;
         }
-        await sleep(10);
+        await sleep(0);
         const nuevaPosicion = { x, y };
         setEbrios(prevEbrios => [...prevEbrios, nuevaPosicion]); // Agregar la nueva posición
       }
