@@ -17,10 +17,10 @@ const SimuladorEbrio = () => {
   const validarYsimular = () => {
     const numSimulacionesInt = parseInt(numSimulaciones);
 
-    if (numSimulacionesInt >= 1 && numSimulacionesInt <= 100) {
+    if (numSimulacionesInt >= 1 && numSimulacionesInt <= 1000) {
       simular(numSimulacionesInt);
     } else {
-      alert('El número de simulaciones debe estar entre 1 y 100.');
+      alert('El número de simulaciones debe estar entre 1 y 1000.');
     }
   }
 
