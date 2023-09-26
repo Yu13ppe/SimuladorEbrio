@@ -54,6 +54,8 @@ const SimuladorEbrio = () => {
           case 3:
             x--;
             break;
+          default:
+            break;
         }
         await sleep(10);
         const nuevaPosicion = { x, y };
